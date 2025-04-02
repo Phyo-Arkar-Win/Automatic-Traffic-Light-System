@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-| Date             : Wed Apr  2 03:20:17 2025
+| Date             : Wed Apr  2 19:41:49 2025
 | Host             : Tony_LOQ running 64-bit major release  (build 9200)
 | Command          : report_power -file traffic_light_controller_power_routed.rpt -pb traffic_light_controller_power_summary_routed.pb -rpx traffic_light_controller_power_routed.rpx
 | Design           : traffic_light_controller
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+----------------------------------+
-| Total On-Chip Power (W)  | 14.109 (Junction temp exceeded!) |
+| Total On-Chip Power (W)  | 14.111 (Junction temp exceeded!) |
 | Design Power Budget (W)  | Unspecified*                     |
 | Power Budget Margin (W)  | NA                               |
-| Dynamic (W)              | 13.881                           |
+| Dynamic (W)              | 13.883                           |
 | Device Static (W)        | 0.228                            |
 | Effective TJA (C/W)      | 5.0                              |
 | Max Ambient (C)          | 14.5                             |
@@ -52,16 +52,16 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.299 |      171 |       --- |             --- |
-|   LUT as Logic |     0.239 |       68 |     20800 |            0.33 |
+| Slice Logic    |     0.301 |      171 |       --- |             --- |
+|   LUT as Logic |     0.240 |       68 |     20800 |            0.33 |
 |   CARRY4       |     0.031 |       12 |      8150 |            0.15 |
 |   Register     |     0.024 |       57 |     41600 |            0.14 |
 |   BUFG         |     0.006 |        1 |        32 |            3.13 |
 |   Others       |     0.000 |        6 |       --- |             --- |
-| Signals        |     0.410 |      156 |       --- |             --- |
+| Signals        |     0.411 |      156 |       --- |             --- |
 | I/O            |    13.172 |       22 |       106 |           20.75 |
 | Static Power   |     0.228 |          |           |                 |
-| Total          |    14.109 |          |           |                 |
+| Total          |    14.111 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -71,7 +71,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.857 |       0.721 |      0.136 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.860 |       0.724 |      0.136 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     0.510 |       0.482 |      0.027 |       NA    | Unspecified | NA         |
 | Vcco33    |       3.300 |     3.726 |       3.725 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -138,9 +138,9 @@ Table of Contents
 +--------------------------+-----------+
 | Name                     | Power (W) |
 +--------------------------+-----------+
-| traffic_light_controller |    13.881 |
-|   clk_div                |     0.269 |
-|   controller             |     0.252 |
+| traffic_light_controller |    13.883 |
+|   clk_div                |     0.273 |
+|   controller             |     0.247 |
 +--------------------------+-----------+
 
 

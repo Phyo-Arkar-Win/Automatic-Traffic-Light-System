@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-| Date         : Wed Apr  2 03:20:04 2025
+| Date         : Wed Apr  2 19:41:36 2025
 | Host         : Tony_LOQ running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file traffic_light_controller_control_sets_placed.rpt
 | Design       : traffic_light_controller
@@ -59,7 +59,7 @@ Table of Contents
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | No           | No                    | No                     |              20 |            5 |
-| No           | No                    | Yes                    |              30 |            9 |
+| No           | No                    | Yes                    |              30 |            8 |
 | No           | Yes                   | No                     |               0 |            0 |
 | Yes          | No                    | No                     |               2 |            1 |
 | Yes          | No                    | Yes                    |               5 |            3 |
@@ -74,7 +74,7 @@ Table of Contents
 |  Clock Signal  |             Enable Signal            | Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
 +----------------+--------------------------------------+------------------+------------------+----------------+--------------+
 |  clk_div/CLK   | controller/prev_emergency_ew_i_1_n_0 |                  |                1 |              2 |         2.00 |
-|  clk_div/CLK   |                                      | reset_IBUF       |                3 |              3 |         1.00 |
+|  clk_div/CLK   |                                      | reset_IBUF       |                2 |              3 |         1.50 |
 |  clk_div/CLK   | controller/timer[4]_i_1_n_0          | reset_IBUF       |                3 |              5 |         1.67 |
 |  clk_IBUF_BUFG |                                      |                  |                5 |             20 |         4.00 |
 |  clk_IBUF_BUFG |                                      | reset_IBUF       |                6 |             27 |         4.50 |
